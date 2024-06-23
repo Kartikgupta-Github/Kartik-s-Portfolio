@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(8, 8, 49);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Adjusted to space out items */
+    align-items: center;
+    height: 80px;
+    background-color: rgb(22, 22, 92);
+    padding: 0 20px; /* Added padding for some space on the sides */
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 20px; /* Adjusted margin for spacing */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(67, 67, 220);
+    font-size: 1.02rem;
+}
+
+hr {
+    border: 0;
+    background-color: darkslateblue;
+    height: 1px;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-left: 400px;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    position: left;
+}
+
+.right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img {
+    width: 25px;
+    height: auto;
+    padding-right: 500px;
+    margin: 4px 4px 4px 4px;
+}
+.left {
+    font-size: 1.75rem;
+    padding-left: 155px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+
+}
+.about-para{
+    padding-top: 30px;
+    font-size: 15px;
+}
+.firstSection > div {
+    width: 30%;
+}
+
+.leftSection {
+    /* background-color: rgb(248, 163, 36); */
+    font-size: 2.5rem;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: purple;
+}
+#element{
+    color: aqua;
+}
+main hr{
+    border: 0;
+    background: rgb(93, 93, 214);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondsection h1{
+    font-size: 2.0rem;
+    height: 8vh;
+}
+.secondsection .box{
+    background: rgb(255, 255, 255);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    align-items: center;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
